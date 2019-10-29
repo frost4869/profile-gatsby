@@ -1,0 +1,66 @@
+.intro-container {
+  background-color: black;
+  justify-content: center;
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  background-image: linear-gradient(to right, black, transparent),
+    // url("https://lh3.googleusercontent.com/pLt0YwdDkDs-5uYLnUSj4yNYDHyfzc0s1a4F2-7ZqV0Yeo3AWh-AV-_U6pvP_J3yQ2QhPf-IQWBvcrXb5pcoKRcgUNPxnMiifog-G4LnAm-K6CXCSiS2cjDtA7Mk8FtyZv8Ngs0rPOBGDmqeR7S8D98LiVhO9_dvCSOzFg6R2LcpDG764jZHGsLg2cwhRoon6b7B0dC-slRtqx7suZ17QJC4hJpmuvU_kK-xMQRlODIbQtM2xodB84XSPfZXY1PL7FICymMpmXhHnqWQnwZNo_OlhF407uPrRIfTWqpC7gx_p4eThJhLCs31p8H9g2edW146OcigoSdJI3MOHaFTp9PafiGo5gLVZZvI3rigO_zrxkOw_xlOlKIVBbleJc3xUT6VFc2kyRyAOzmHFmn87TqQy67Zn7pib_X5rzXxVYg_8QwpMKAr9P9-FtYyeapVMDdb94tuR0TAWvKQEL7qhb1yKMItOUvTmS-en0coNm-C-h8PPNSR6e6jo0OLPhciTtIJvqEXrDTSb7Yk4KQMTJwS9GxyrAO9qSgcXHfWcLxEziTXwD3F4pL5LJ5AIdX9PzFU2tL1IX4nvs4nLqo2lDm39b4NGml7R2PCDI_D8D0Q9ajchV9siJ9fymiPqZog_1Vzz7egWnIW0-qM6hhaGn5xickO4NC5cfcqtH5lawqdFLQSArIVksOj7jOTt5Wkuq3FUyqwVbKivhFd2RrN8BrAL1w4xCijOnADnck1WaOuOyxu=w2748-h1832-no");
+      url("https://w.wallhaven.cc/full/96/wallhaven-969w3d.jpg");
+  background-size: 110%;
+  background-repeat: no-repeat;
+  width: 100vw;
+  padding-top: 8em;
+  min-height: 40vh;
+}
+
+@media screen and (min-width: 800px) {
+  .intro-container {
+    height: 100vh;
+  }
+}
+
+.intro-text {
+  color: white;
+  font-size: calc(1.5em + 1vw);
+  font-weight: 300;
+  margin: 0px;
+  margin-left: 10vw;
+  max-width: 70%;
+  &.h1 {
+    font-weight: 700;
+  }
+}
+
+span {
+  &.intro-text {
+    font-size: calc(1em + 1vw);
+    margin-top: 28px;
+  }
+}
+
+.scrolldown-container {
+  position: absolute;
+  bottom: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  animation: upDown 1.5s linear infinite;
+  cursor: pointer;
+
+  .scrolldown-text {
+    color: white;
+  }
+}
+
+@keyframes upDown {
+  0%,
+  100% {
+    bottom: 0;
+  }
+  50% {
+    bottom: 8px;
+  }
+}

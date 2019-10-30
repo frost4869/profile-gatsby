@@ -9,7 +9,7 @@ export default class Intro extends PureComponent {
     const strings = [
       'I can create awesome applic',
       'I can create good apps',
-      'I do stuffs ^600, for a great deal  ^1000 :^800)'
+      'I make stuffs ^600, for a great deal  ^1000 :^800)'
     ]
     const options = {
       strings,
@@ -32,7 +32,7 @@ export default class Intro extends PureComponent {
         <Typo className="intro-text">I'm Son, and I'm a Front-end developer</Typo>
         <span className="intro-text" ref={ref => this.subIntro = ref} />
         <div className='scrolldown-container' onClick={this.scrollToNext}>
-          <Typo className="scrolldown-text">Nothing scary down here</Typo>
+          <Typo className="scrolldown-text" customStyles={{ color: '#fff' }}>Nothing scary down here</Typo>
           <FaChevronDown color='white' className="chevron-down" />
         </div>
       </div>

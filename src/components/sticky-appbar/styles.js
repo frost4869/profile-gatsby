@@ -38,5 +38,11 @@ export default {
   },
   username: {
     fontWeight: '700'
+  },
+  clickable: {
+    cursor: 'pointer',
+    display: 'flex',
+    justifyContent: 'center',
+    alignItems: 'center',
   }
 }

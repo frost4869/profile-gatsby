@@ -47,7 +47,7 @@ span {
   justify-content: center;
   align-items: center;
   width: 100vw;
-  animation: upDown 1.5s linear infinite;
+  animation: upDown 0.8s ease-out infinite;
   cursor: pointer;
 
   .scrolldown-text {

@@ -1,4 +1,5 @@
 module.exports = {
+  pathPrefix: '/profile-gatsby',
   siteMetadata: {
     title: `Son Nguyen`,
     description: `This is my portfolio`,
@@ -33,4 +34,4 @@ module.exports = {
     // To learn more, visit: https://gatsby.dev/offline
     // `gatsby-plugin-offline`,
   ],
-}
+};
